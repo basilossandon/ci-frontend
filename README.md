@@ -1,2 +1,2 @@
 # continuousIntegrationFE
-A React application for continuous integration purposes 
+A Vue application for continuous integration purposes 
