@@ -25,14 +25,37 @@
       <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
       <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
     </ul>
+    <button @click="axios()"></button>
   </div>
 </template>
 
 <script>
+import axios from 'axios'
+
 export default {
   name: 'HelloWorld',
   props: {
     msg: String
+  },
+  craeted() {
+  console.log('Axios');
+  axios.get("http://157.230.12.110:8080/productos").then(
+    (response) => {
+      console.log(response.data);
+      console.log('AXIOS READY')
+    }
+  );
+  },
+  methods: {
+    axioss() {
+      console.log('Axios');
+  axios.get("http://157.230.12.110:8080/productos").then(
+    (response) => {
+      console.log(response.data);
+      console.log('AXIOS READY')
+    }
+  );
+    }
   }
 }
 </script>
