@@ -16,6 +16,7 @@ export default {
   },
 
   craeted() {
+    console.log('Axios');
     axios.get("http://157.230.12.110:8080/productos").then(
       (response) => {
         console.log(response.data);
