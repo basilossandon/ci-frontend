@@ -1,6 +1,7 @@
 <template>
-	<div id="app"></div>
-	<Svg/>
+	<div id="app">
+		<Svg/>
+	</div>
 </template>
 <script>
 import axios from "axios";
