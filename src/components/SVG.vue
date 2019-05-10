@@ -1,15 +1,12 @@
 <template>
 	<div id="app"></div>
-	<Svg/>
 </template>
 <script>
 import axios from "axios";
-import Svg from './component/Svg.vue';
-
 export default {
-	name: "app",
+	name: "Svg",
 	components: {
-		Svg
+
 	}
 };
 </script>
