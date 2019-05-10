@@ -15,7 +15,8 @@ export default {
 </script>
 <style>
 .Products {
-  height: 100vh;
-  width: 100%;
+    background-color: aquamarine;
+    height: 100vh;
+    width: 100%;
 }
 </style>
