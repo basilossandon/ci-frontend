@@ -6,10 +6,12 @@
 
 <script>
 import Home from "./components/Home.vue";
+import Products from "./components/Products.vue";
 export default {
   name: "app",
   components: {
-    Home
+    Home,
+    Products
   },
   data() {
     return {};
