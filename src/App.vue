@@ -1,15 +1,15 @@
 <template>
   <div id="app">
-    <Svg/>
+    <Home/>
   </div>
 </template>
 
 <script>
-import Svg from "./components/Svg.vue";
+import Home from "./components/Home.vue";
 export default {
   name: "app",
   components: {
-    Svg
+    Home
   },
   data() {
     return {};
